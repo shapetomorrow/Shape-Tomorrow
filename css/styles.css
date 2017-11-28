@@ -37,7 +37,7 @@ Links
 ========================================================================== */
 /* * Addresses `outline` inconsistency between Chrome and other browsers. */
  
-a:focus { outline: thin dotted; }
+a:focus { outline: none !important; }
 /* * Improves readability when focused and also mouse hovered in all browsers. */
 a:active, a:hover { outline: 0; }
 /* ==========================================================================
